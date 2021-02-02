@@ -1,1 +1,107 @@
+*{
+      box-sizing:border-box;
+  }
+        h1{
+            margin: 100px;
+            font-family:serif;
+            font-size: 176%;
+            font-weight: bold;
+            color:rgb(54, 54, 218);
+            text-align:center;
+        }
+        section{
+            position:relative;
+            padding:15px;
+            width:100%;
 
+        }
+        p{
+            position:relative;
+            clear:right;
+        }
+        div{
+            position:relative;
+            border:1px solid black;
+            width:100% ;
+            background-color: grey;
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:auto; 
+        }
+        .content-name1{
+             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             padding:5px;
+             margin: 0px;
+             border:1px solid black;
+             width:100px;
+             background-color: rgb(231, 94, 162);
+             text-align:center;
+             font-size: 125%;
+             float:right;
+             position:relative;
+        }
+        .content-name2{
+             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             padding:5px;
+             margin: 0px;
+             border:1px solid black;
+             width:100px;
+             background-color: yellowgreen;
+             text-align:center;
+             font-size: 125% ;
+             float:right;
+             position:relative;
+        }
+        .content-name3{
+             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             padding:5px;
+             margin: 0px;
+             border:1px solid black;
+             width:100px;
+             background-color:rgb(192, 65, 65);
+             text-align:center;
+             font-size: 125% ;
+             float:right;
+             position:relative;
+            
+        }
+        .content{
+            border:none;
+            margin: 0px ;
+            padding: 10px;
+            height:150px;
+            font-family:serif;
+            font-size:100% ;
+            color:black;
+            overflow:auto;
+            background-color:grey;
+            position:relative;
+            }
+        /****desktop version****/
+        @media (min-width: 992px){
+            .col-lg-4{
+             width:33.33% ;
+             float:left;
+            }
+           
+        }
+        /****tablet version****/
+        @media (min-width:768px) and (max-width:991px){
+            .col-md-6{
+                width:50% ;
+                float:left;
+            }
+            .col-md-12{
+                width:100% ;
+                float:left;
+            }
+           
+        }
+        /****mobile version****/
+        @media (max-width:767px){
+            .col-sm-12{
+                width:100% ;
+                float:left;
+            }
+           
+        }
