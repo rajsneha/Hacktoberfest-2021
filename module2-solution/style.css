@@ -23,7 +23,7 @@
             position:relative;
             border:1px solid black;
             width:100% ;
-            background-color: grey;
+            background-color: white;
             margin-left:auto;
             margin-right:auto;
             margin-bottom:auto; 
@@ -46,7 +46,7 @@
              margin: 0px;
              border:1px solid black;
              width:100px;
-             background-color: yellowgreen;
+             background-color: light blue;
              text-align:center;
              font-size: 125% ;
              float:right;
@@ -58,7 +58,7 @@
              margin: 0px;
              border:1px solid black;
              width:100px;
-             background-color:rgb(192, 65, 65);
+             background-color:rgb(100, 65, 55);
              text-align:center;
              font-size: 125% ;
              float:right;
@@ -74,7 +74,7 @@
             font-size:100% ;
             color:black;
             overflow:auto;
-            background-color:grey;
+            background-color:white;
             position:relative;
             }
         /****desktop version****/
