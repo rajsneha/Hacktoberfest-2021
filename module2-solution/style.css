@@ -2,9 +2,9 @@
       box-sizing:border-box;
   }
         h1{
-            margin: 101px;
+            margin: 102px;
             font-family:serif;
-            font-size: 170%;
+            font-size: 171%;
             font-weight: bold;
             color:rgb(55, 55, 210);
             text-align:center;
@@ -12,7 +12,7 @@
         section{
             position:relative;
             padding:15px;
-            width:100%;
+            width:101%;
 
         }
         p{
@@ -23,7 +23,7 @@
             position:relative;
             border:1px solid black;
             width:100% ;
-            background-color:pink;
+            background-color:grey;
             margin-left:auto;
             margin-right:auto;
             margin-bottom:auto; 
